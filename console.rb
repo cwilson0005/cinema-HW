@@ -13,8 +13,19 @@ customer1 = Customer.new(
   }
 )
 
+film1 = Film.new(
+  {
+    'title' => 'Conan the Barbarian',
+    'price' => '10'
+  }
+)
+
 customer1.save()
 customer1.funds = '200'
+
+film1.save()
+film1.title = 'Conan the Destroyer'
+film1.price = '15'
 
 binding.pry
 nil
