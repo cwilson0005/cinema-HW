@@ -14,6 +14,7 @@ customer1 = Customer.new(
 )
 
 customer1.save()
+customer1.funds = '200'
 
 binding.pry
 nil
